@@ -21,7 +21,7 @@ public class CicloVida extends HttpServlet {
 		System.out.println("Servlet Iniciado.");
 		System.out.println("Contador inicial: " + contador);
 	}
-	
+	 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		PrintWriter out = resp.getWriter();
